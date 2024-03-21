@@ -1,0 +1,17 @@
+body {
+    background-image: url(ex001.png);
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.bloco-texto {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}

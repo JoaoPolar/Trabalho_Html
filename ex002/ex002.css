@@ -1,0 +1,43 @@
+.card-pessoa img {
+    width: 60PX;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10PX;
+}
+
+.card-pessoa  {
+    background-color: black;
+    width: 200px;
+    height: 230px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.card-pessoa:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.card-pessoa h1, p, li{
+    color: aliceblue;
+    font-family:sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+li a{
+    color: rgb(186, 143, 226);
+}
+
+li a:hover {
+    color:blueviolet;
+}
