@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Platypi', sans-serif;
+    background-color: #f8f8f8;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2,5rem;
+    color: #333;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.lista{
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista h2{
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.lista img{
+    width: 350px;
+    border-radius: 8px;
+}
+
+.lista .descricao{
+    padding: 20px;
+}
+
+.lista .paragrafo{
+    color: #555;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lista a{
+    display: block;
+    text-align: center;
+    background-color: #e09b33;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.lista a:hover{
+    background-color: #e7651a;
+}
+
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.descricao {
+    flex-direction: column;
+}
+
+.paragrafo {
+    font-family: 'Platype', sans-serif;
+    justify-content: start;
+    padding-left: 1rem;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Platype', sans-serif;
+}
+
+
+.data{
+    font-size: smaller;
+    float: initial;
+}
