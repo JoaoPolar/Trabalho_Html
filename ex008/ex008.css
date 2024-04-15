@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.produto{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.valor{
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skinvalor{
+    padding: 5px 10px;
+    border: 2.2px solid #333333;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.botao{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: backgroud-color 0.3s ease;
+}
+
+.botao:hover{
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
