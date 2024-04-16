@@ -1,0 +1,51 @@
+html{
+    font-family: sans-serif;
+}
+
+.formulario form{
+    width: fit-content;
+    height: auto;
+    box-shadow: 13px 15px 15px black;
+    border: 3px solid;
+    padding: 15px;
+    margin: auto;
+    
+}
+
+.formulario h1{
+    width: auto;
+    height: auto;
+}
+
+.formulario{
+    background-color: rgb(14, 219, 219);
+    text-align: center;
+    
+}
+
+.header {
+    background-color: rgb(14, 219, 219);
+    padding: 2px;
+    display: flex;
+    
+}
+
+.header h1{
+    padding-left: 20px;
+}
+.header li{
+    display: inline;
+}
+
+.header ul{
+    padding-top: 15px;
+}
+
+.header img {
+    width: 10%;
+    height: 10%;
+}
+
+body{
+    background-color: rgb(10, 132, 202);
+}
