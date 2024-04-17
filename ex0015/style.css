@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.header {
+    background-color: rgba(195, 204, 204, 0.753);
+    padding: 2px;
+    display: flex;
+    
+}
+
+.header h1{
+    padding-left: 20px;
+}
+.header li{
+    display: inline;
+}
+
+.header ul{
+    padding-top: 15px;
+}
+
+.header img {
+    width: 7%;
+    height: 7%;
+}
+
+.container-produtos img{
+    width: 175px;
+    height: 175px;
+}
+
+.container-produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+div h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-color: rgba(146, 155, 155, 0.753);
+}
