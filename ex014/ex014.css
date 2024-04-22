@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    color: #333;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.perfis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1.5rem 7rem;
+    gap: 0.5rem;
+    border: solid 3px #333;
+    border-radius: 50px;
+    max-width: 900px;
+    width: 100%;
+    border-image-slice: 1;
+}
+
+.perfis img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#ana{
+    border: solid 3px #d81b8f;
+}
+#funcaoa{
+    color: #d81b8f;
+}
+
+#joao{
+    border: solid 3px #31b874;
+}
+#funcaoj{
+    color: #31b874;
+}
+
+#luis{
+    border: solid 3px #2bb1ff;
+}
+#funcaol{
+    color: #2bb1ff;
+}
+
+
+#pedro{
+    border: solid 3px #b32020;
+}
+#funcaop{
+    color: #b32020;
+}
