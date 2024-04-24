@@ -1,4 +1,4 @@
-/* Estilo para o mapa do site */
+/* mapa do site */
 .sitemap {
     list-style-type: none;
     padding: 0;
@@ -6,24 +6,19 @@
 
 .main-item {
     margin-bottom: 5px;
-    cursor: pointer; /* Altera o cursor ao passar sobre os itens principais */
 }
 
 .sub-menu {
-    display: none; /* Oculta as subseções por padrão */
-    margin-left: 20px; /* Adiciona um recuo para as subseções */
+    display: none; /* oculta as submenu */
+    margin-left: 20px; /* adiciona um recuo para as submenu */
 }
 
 .sub-menu li {
     margin-bottom: 5px;
 }
 
-/* Estilo para os itens principais quando estão expandidos */
-.main-item.expanded {
-    font-weight: bold;
-}
-
-/* Estilo para as subseções quando estão visíveis */
+/* estilo para as submenu quando estão visíveis */
 .sub-menu.visible {
     display: block;
+    color: pink;
 }
