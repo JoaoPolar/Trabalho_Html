@@ -1,0 +1,19 @@
+.imagemi {
+    display: grid;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .imagemi {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: pink;
+  }
+  .imagemi > div {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 1em;
+    color: black;
+  }
