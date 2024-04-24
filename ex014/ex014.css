@@ -36,6 +36,7 @@ body{
 }
 
 .perfis{
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +76,6 @@ body{
 #funcaol{
     color: #2bb1ff;
 }
-
 
 #pedro{
     border: solid 3px #b32020;
