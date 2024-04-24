@@ -1,0 +1,29 @@
+/* Estilo para o mapa do site */
+.sitemap {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-item {
+    margin-bottom: 5px;
+    cursor: pointer; /* Altera o cursor ao passar sobre os itens principais */
+}
+
+.sub-menu {
+    display: none; /* Oculta as subseções por padrão */
+    margin-left: 20px; /* Adiciona um recuo para as subseções */
+}
+
+.sub-menu li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para os itens principais quando estão expandidos */
+.main-item.expanded {
+    font-weight: bold;
+}
+
+/* Estilo para as subseções quando estão visíveis */
+.sub-menu.visible {
+    display: block;
+}

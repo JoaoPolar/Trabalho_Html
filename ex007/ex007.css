@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    display: block;
+    width: 101%;
+    padding: 9px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: red;
+}

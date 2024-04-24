@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para a contagem regressiva */
+.contagemregressiva {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contagemregressiva {
+    font-size: 24px;
+}
+
+/* Estilos para as imagens do produto */
+.produto-imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.produto-imagem img {
+    max-width: 200px;
+    margin: 0 10px;
+}
+
+/* Estilos para os recursos destacados */
+.features {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o formulário de pré-venda */
+.pre-ordem {
+    text-align: center;
+}
+
+#preOrdemForm {
+    display: inline-block;
+    text-align: left;
+}
+
+#preOrdemForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#preOrdemForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#preOrdemForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#preOrdemForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a mensagem de sucesso */
+.success-message {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    display: none;
+}
