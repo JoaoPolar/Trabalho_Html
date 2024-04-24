@@ -34,8 +34,8 @@ h2 {
   height: 100px;
   text-align: center;
   border-radius: 10px;
+  transition: 1s;
 }
 
 .animacao {
-  
 }

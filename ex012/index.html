@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="gallery">
+        <figure onclick="openFullscreen(this)">
+            <img src="https://as2.ftcdn.net/v2/jpg/05/57/67/71/1000_F_557677119_MBNVq0fzuxeOqe2coH1tsAGMI1pXrlTV.webp" alt="Image 1">
+        </figure>
+        <figure onclick="openFullscreen(this)">
+            <img src="https://s2.glbimg.com/7bVUw0hl6xoms3LcYosBmZzxhak=/620x465/s.glbimg.com/jo/g1/f/original/2016/11/29/img_3707.jpg" alt="Image 2">
+        </figure>
+        <figure onclick="openFullscreen(this)">
+            <img src="https://unicv.edu.br/wp-content/uploads/2023/08/Logo-com-brilho.png" alt="Image 3">
+        </figure>
+    </div>
+
+    <div class="fullscreen-view" onclick="closeFullscreen()">
+        <img class="fullscreen-img" src="" alt="Fullscreen Image">
+    </div>
+
+    <script>
+        function openFullscreen(element) {
+            var imgSrc = element.querySelector("img").src;
+            var fullscreenImg = document.querySelector(".fullscreen-img");
+            fullscreenImg.src = imgSrc;
+            document.querySelector(".fullscreen-view").classList.add("active");
+        }
+
+        function closeFullscreen() {
+            document.querySelector(".fullscreen-view").classList.remove("active");
+        }
+    </script>
+</body>
+</html>
